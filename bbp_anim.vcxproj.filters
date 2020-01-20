@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="OSPRay">
+      <UniqueIdentifier>{6b687190-30e8-491d-bd87-1c636b6bc090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSPRay\Resources">
+      <UniqueIdentifier>{0e783afa-a324-4755-acda-2cefa0eb21b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSPRay\Libs">
+      <UniqueIdentifier>{786089d5-29d3-42a6-b4fe-5d0c4c6b14cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSPVRay Tutorial">
+      <UniqueIdentifier>{c7fafd63-a0d3-4f47-be00-f8a6f67bf046}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fonts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ospvray-tutorial\GLFWOSPRayWindow.cpp">
+      <Filter>OSPVRay Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="ospvray-tutorial\ArcballCamera.cpp">
+      <Filter>OSPVRay Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="ospvray-tutorial\imgui\imgui_impl_glfw_gl3.cpp">
+      <Filter>OSPVRay Tutorial</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\tbbmalloc.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\embree3.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\imgui.ini">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\OpenImageDenoise.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\ospray.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\ospray_common.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\ospray_imgui.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\ospray_imgui_util_sg.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\ospray_imgui3d_sg.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\ospray_json.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\ospray_module_ispc.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\ospray_module_mpi.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\ospray_mpi_common.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\ospray_mpi_maml.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\ospray_sg.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\ospray_testing.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\ospray_tfn.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ospray-1.8.5.windows\bin\tbb.dll">
+      <Filter>OSPRay\Resources</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="font8x8_basic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ospvray-tutorial\ArcballCamera.h">
+      <Filter>OSPVRay Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="ospvray-tutorial\GLFWOSPRayWindow.h">
+      <Filter>OSPVRay Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="ospvray-tutorial\imgui\imgui_impl_glfw_gl3.h">
+      <Filter>OSPVRay Tutorial</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray_tfn.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray_testing.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray_sg.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray_mpi_maml.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray_mpi_common.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray_module_mpi.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray_module_ispc.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray_json.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray_imgui3d_sg.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray_imgui_util_sg.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray_imgui.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray_common.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray_app.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\ospray.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+    <Library Include="..\ospray-1.8.5.windows\lib\glfw3.lib">
+      <Filter>OSPRay\Libs</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
