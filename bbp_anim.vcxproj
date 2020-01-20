@@ -97,9 +97,9 @@
   <ItemGroup>
     <ClCompile Include="fonts.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="ospvray-tutorial\ArcballCamera.cpp" />
-    <ClCompile Include="ospvray-tutorial\GLFWOSPRayWindow.cpp" />
-    <ClCompile Include="ospvray-tutorial\imgui\imgui_impl_glfw_gl3.cpp" />
+    <ClCompile Include="ospray-tutorial\ArcballCamera.cpp" />
+    <ClCompile Include="ospray-tutorial\GLFWOSPRayWindow.cpp" />
+    <ClCompile Include="ospray-tutorial\imgui\imgui_impl_glfw_gl3.cpp" />
     <ClCompile Include="scene.cpp" />
     <ClCompile Include="utils.cpp" />
   </ItemGroup>
@@ -162,9 +162,9 @@
   <ItemGroup>
     <ClInclude Include="fonts.h" />
     <ClInclude Include="font8x8_basic.h" />
-    <ClInclude Include="ospvray-tutorial\ArcballCamera.h" />
-    <ClInclude Include="ospvray-tutorial\GLFWOSPRayWindow.h" />
-    <ClInclude Include="ospvray-tutorial\imgui\imgui_impl_glfw_gl3.h" />
+    <ClInclude Include="ospray-tutorial\ArcballCamera.h" />
+    <ClInclude Include="ospray-tutorial\GLFWOSPRayWindow.h" />
+    <ClInclude Include="ospray-tutorial\imgui\imgui_impl_glfw_gl3.h" />
     <ClInclude Include="scene.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>

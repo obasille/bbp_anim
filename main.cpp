@@ -1,4 +1,4 @@
-#include "ospvray-tutorial/GLFWOSPRayWindow.h"
+#include "ospray-tutorial/GLFWOSPRayWindow.h"
 #include "scene.h"
 #include "utils.h"
 #include <imgui.h>
